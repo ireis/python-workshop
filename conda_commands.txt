@@ -1,0 +1,34 @@
+################################
+##### Virtual environments #####
+################################
+#### We can create different virtual environments that contain different packages, packages versions, python version etc.
+
+#### Create a virtual env
+#### conda create --name environment_name [packages]
+
+conda create --name python_workshop python=3.6
+
+#### Activate & deactivate virtual environment
+#### source activate environment_name
+
+source activate python_workshop
+
+source deactivate
+
+
+#### Packages
+#### List existing packages
+conda list
+
+#### Install packages
+conda install scipy numpy astropy matplotlib jupyter
+
+# More possibly useful packages: pandas ipyparallel scikit-learn seaborn
+# Stuff not available from conda usually available from pip
+# pip instal ...
+# Can also install packages from source code
+
+####More commands
+
+conda update [package_name, python...]
+conda info --envs
