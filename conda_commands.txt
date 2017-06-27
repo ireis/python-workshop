@@ -21,9 +21,9 @@ source deactivate
 conda list
 
 #### Install packages
-conda install scipy numpy astropy matplotlib jupyter
+conda install scipy numpy astropy matplotlib jupyter scikit-learn seaborn
 
-# More possibly useful packages: pandas ipyparallel scikit-learn seaborn
+# More possibly useful packages: pandas ipyparallel
 # Stuff not available from conda usually available from pip
 # pip instal ...
 # Can also install packages from source code
